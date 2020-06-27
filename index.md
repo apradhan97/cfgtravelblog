@@ -2,7 +2,27 @@
 <html>
     <header>
         <title>Our Travel Blog</title>
-        <link rel="stylesheet" href="/CSS/frontpage.css">
+         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="frontpage.css"
+              
+              <!--TEMPORARY NAV BAR-->
+        <nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Asia</a>
+      <a class="nav-item nav-link" href="#">Africa</a>
+        <a class="nav-item nav-link" href="#">Europe</a>
+        <a class="nav-item nav-link" href="#">North America</a>
+    </div>
+  </div>
+</nav>
+        
     </header>
 
 <body>
@@ -12,7 +32,9 @@
         <img src="https://static.thenounproject.com/png/38719-200.png">
         
         <p>Think you’re an expert traveller? Test your world knowledge with our travelling quiz!  With questions on holiday destinations, famous places to visit and sightseeing. Click below to start!</p>
-        <div class="button">Start Quiz!</div>
+         <div class="quizbtn">
+        <button type="button" class="btn btn-warning btn-lg">Start Quiz!</button>
+        </div>
     </div>
 
 <!--CONTACT US PAGE-->
@@ -31,8 +53,9 @@
         <div class="message">
           <textarea class="area" placeholder="Leave a message"></textarea>
         </div>
-
-        <div class="btn">Submit</div>
+ <div class="submitbtn">
+        <button type="button" class="btn btn-warning btn-lg">Submit</button>
+        </div>
       </div>
 
       <footer>
