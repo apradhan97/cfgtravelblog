@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+}
+/*Quiz elements*/
+.quiz{
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 80%;
+    height: 400px;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+.quiz img{
+    float: left;
+    width: 250px;
+    text-align: center;
+}
+
+.quiz p{
+    text-align: right;
+    padding: 30 auto;
+    font-size: 20px;
+    letter-spacing: 1px;
+    clear: right;
+}
+
+.quiz h3{
+    text-align: right;
+    padding-right: 60px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.button{
+  width: 150px;
+    background: #F2C94C;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    float: right;
+    border-radius: 5px;
+}
+
+
+/*Contact box elements*/
+.container{
+    width: 600px;
+    height: 650px;
+    background-color: white;
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 5px;
+  }
+  
+  .container p{
+   text-align: center;
+   text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+  
+  .input, .message, .area{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .login .input{
+    width: 45%;
+    float: left;
+    margin-right: 4%;
+    justify-content: center;
+  }
+  
+  .login .input:last-child{
+    margin-right: 0;
+  }
+  
+  .email{
+    justify-content: center;
+  }
+  
+  .message .area{
+    height: 150px;
+  }
+
+  .btn{
+    width: 150px;
+    background: #F2C94C;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  
+
+  footer{
+    color: white;
+  }
