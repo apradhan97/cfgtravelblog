@@ -3,7 +3,7 @@ body{
 }
 /*Quiz elements*/
 .quiz{
-    border-radius: 5px;
+    border-radius: 8px;
     box-sizing: border-box;
     background-color: white;
     width: 80%;
