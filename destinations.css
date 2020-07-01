@@ -51,7 +51,7 @@ header {
 }
 
 .background {
-  background-image: url(../images/background.jpg);
+  background-image: url(background.jpg);
   repeat;
   background-size: 100% auto;
   position: fixed;
@@ -98,7 +98,7 @@ img {
 
     border-width: 30px;
     border-style: solid;
-    border-image-source: url(../images/border4.png);
+    border-image-source: url(border4.png);
     border-image-slice: 30;
     border-image-repeat: repeat;
 }
