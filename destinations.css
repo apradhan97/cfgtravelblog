@@ -96,10 +96,10 @@ img {
     max-width: 100%;
     background-position: center;
 
-    border-width: 30px;
+    border-width: 20px;
     border-style: solid;
     border-image-source: url(border4.png);
-    border-image-slice: 30;
+    border-image-slice: 20;
     border-image-repeat: repeat;
 }
 
