@@ -3,11 +3,8 @@
 body{
     background-color: black;
 }
-/*Top of homepage*/
-/*TRIALLING INTERNAL CSS*/
 
-/*About Us*/
-.aboutus{
+.about{
     border-radius: 8px;
     box-sizing: border-box;
     background-color: white;
@@ -17,13 +14,13 @@ body{
     padding: 40px;
 }
 
-.aboutus img{
+.about img{
     float: right;
     width: 250px;
     text-align: center;
 }
 
-.aboutus p{
+.about p{
     text-align: left;
     padding: 30 auto;
     font-size: 20px;
@@ -32,14 +29,13 @@ body{
     font-family: 'Roboto', 'sans-serif';
 }
 
-.aboutus h3{
+.about h3{
     text-align: left;
     padding-right: 60px;
     text-transform: uppercase;
     font-weight: 30px;
     font-size: 35px;
 }
-
 
 /*Quiz elements*/
 .quiz{
