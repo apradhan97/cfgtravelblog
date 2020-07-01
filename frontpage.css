@@ -6,6 +6,41 @@ body{
 /*Top of homepage*/
 /*TRIALLING INTERNAL CSS*/
 
+/*About Us*/
+.aboutus{
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 80%;
+    height: 400px;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+.aboutus img{
+    float: right;
+    width: 250px;
+    text-align: center;
+}
+
+.aboutus p{
+    text-align: left;
+    padding: 30 auto;
+    font-size: 20px;
+    letter-spacing: 1px;
+    clear: right;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.aboutus h3{
+    text-align: left;
+    padding-right: 60px;
+    text-transform: uppercase;
+    font-weight: 30px;
+    font-size: 35px;
+}
+
+
 /*Quiz elements*/
 .quiz{
     border-radius: 8px;
@@ -29,6 +64,7 @@ body{
     font-size: 20px;
     letter-spacing: 1px;
     clear: right;
+    font-family: 'Roboto', 'sans-serif';
 }
 
 .quiz h3{
@@ -45,7 +81,6 @@ body{
     float: right;
     border-radius: 5px;
 }
-
 
 /*Contact box elements*/
 .container{
